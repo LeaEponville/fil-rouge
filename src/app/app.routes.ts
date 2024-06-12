@@ -5,7 +5,6 @@ import { LoginComponent } from './pages/login/login.component';
 import { QuizComponent } from './pages/quiz/quiz.component';
 import { QuestionsComponent } from './pages/questions/questions.component';
 import { ResultsComponent } from './pages/results/results.component';
-import { AgentsManagementComponent } from './pages/agents-management/agents-management.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 export const routes: Routes = [
@@ -21,8 +20,6 @@ export const routes: Routes = [
     { path: "questions/:id", component: QuestionsComponent },
     { path: 'results', component: ResultsComponent },
     { path: "results/:id", component: ResultsComponent },
-    { path: 'agents-management', component: AgentsManagementComponent },
-    { path: "agents-management/:id", component: AgentsManagementComponent },
     { path: "", redirectTo: "home", pathMatch: "full" },
     { path: "**", component: NotFoundComponent },
 ];
