@@ -1,1 +1,102 @@
-<p>admin works!</p>
+<body>
+    <div id="page1" class="page" style="z-index: 3;">
+        <nav>
+            <div id="title_discover">
+                <h1>TechTalentify</h1>
+                <div class="icones_noms">
+                    <img src="./assets/images/ico_accueil.png" class="icones">
+                    <p>Accueil</p>
+                </div>
+                <div class="icones_noms">
+                    <img src="./assets/images/ico_agents.png" class="icones">
+                    <p>Gérer les utilisateurs</p>
+                </div>
+                <div class="icones_noms">
+                    <img src="./assets/images/ico_questions.png" class="icones">
+                    <p>Gérer les questions</p>
+                </div>
+                <div class="icones_noms">
+                    <img src="./assets/images/ico_list.png" class="icones">
+                    <p>Générer un nouveau quiz</p>
+                </div>
+            </div>
+            <img src="./assets/images/techtalentify_logo_black.png" id="tech_logo">
+        </nav>
+
+        <main>
+
+            <header>
+                <h2>Gestion des utilisateurs</h2>
+                <div id="login">
+                    <p>Admin</p>
+                    <button id="déconnexion" onclick=>Déconnexion</button>
+                </div>
+            </header>
+
+            <section id="deux_colonnes">
+
+                <div id="colonne_gauche">
+                    <div id="ico_titre_section">
+                        <img src="./assets/images/ico_agents.png"> Liste des agents
+                    </div>
+                    <input type="text" placeholder="Search" id="search_bar">
+                    <table>
+                        <tr>
+                            <th>Id</th>
+                            <th>Agent</th>
+                        </tr>
+                        <tr>
+                            <td>FIG-121</td>
+                            <td>xxxxxxxxxxx</td>
+                        </tr>
+                        <tr>
+                            <td>FIG-122</td>
+                            <td>xxxxxxxxxxx</td>
+                        </tr>
+                        <tr>
+                            <td>FIG-123</td>
+                            <td>xxxxxxxxxxx</td>
+                        </tr>
+                        <tr>
+                            <td>FIG-124</td>
+                            <td>xxxxxxxxxxx</td>
+                        </tr>
+                        <tr>
+                            <td>FIG-125</td>
+                            <td>xxxxxxxxxxx</td>
+                        </tr>
+                        <tr>
+                            <td>FIG-126</td>
+                            <td>xxxxxxxxxxx</td>
+                        </tr>
+                        <tr>
+                            <td>FIG-127</td>
+                            <td>xxxxxxxxxxx</td>
+                        </tr>
+                        <tr>
+                            <td>FIG-128</td>
+                            <td>xxxxxxxxxxx</td>
+                        </tr>
+                        <tr>
+                            <td>FIG-129</td>
+                            <td>xxxxxxxxxxx</td>
+                        </tr>
+                    </table>
+                    <button id="suivant" onclick=>Suivant</button>
+                </div>
+
+                <div id="colonne_droite">
+                    <img id="computer" src="./assets/images/computer.png">
+                    <div id="actions_agents">
+                        <button class="bg-sky-500 hover:bg-sky-700" onclick=>Ajouter un agent</button>
+                        <button class="agent_button" onclick=>Modifier un agent</button>
+                        <button class="agent_button" onclick=>Supprimer un agent</button>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+
+</body>

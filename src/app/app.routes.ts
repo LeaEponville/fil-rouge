@@ -3,14 +3,20 @@ import { HomeComponent } from './pages/home/home.component';
 import { AdminComponent } from './pages/admin/admin.component';
 import { LoginComponent } from './pages/login/login.component';
 import { QuizComponent } from './pages/quiz/quiz.component';
-import { QuestionsComponent } from './pages/questions/questions.component';
+import { QuestionsComponent } from './pages/admin/questions/questions.component';
 import { ResultsComponent } from './pages/results/results.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 
+
 export const routes: Routes = [
-    { path: 'home', component: HomeComponent },
-    { path: "home/:id", component: HomeComponent },
-    { path: 'admin', component: AdminComponent },
+    { path: 'home', component: HomeComponent},
+    { path: "home/:id", component: HomeComponent},
+    { path: 'admin', component: AdminComponent, 
+        children: [
+            { path: 'questions', component: QuestionsComponent },
+            { path: "questions/:id", component: QuestionsComponent },
+        ] 
+    },
     { path: "admin/:id", component: AdminComponent },
     { path: 'login', component: LoginComponent },
     { path: "login/:id", component: LoginComponent },
@@ -23,3 +29,5 @@ export const routes: Routes = [
     { path: "", redirectTo: "home", pathMatch: "full" },
     { path: "**", component: NotFoundComponent },
 ];
+
+
