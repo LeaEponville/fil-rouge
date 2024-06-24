@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NewnavbarComponent } from './newnavbar/newnavbar.component';
+import { NewnavbarComponent } from './components/newnavbar/newnavbar.component';
 import { RouterOutlet } from '@angular/router';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
