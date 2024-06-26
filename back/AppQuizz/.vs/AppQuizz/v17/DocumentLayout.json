@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Migrations\\20240626134601_SeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppQuizz\\Migrations\\20240626134601_SeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{43297046-A38C-46A9-9743-59FAE3BC1E7D}|AppQuizz\\AppQuizz.csproj|c:\\users\\ib\\lamyaa\\fil-rouge\\back\\appquizz\\appquizz\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43297046-A38C-46A9-9743-59FAE3BC1E7D}|AppQuizz\\AppQuizz.csproj|solutionrelative:appquizz\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -86,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,7 +122,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "20240626134601_SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Migrations\\20240626134601_SeedData.cs",
+              "RelativeDocumentMoniker": "AppQuizz\\Migrations\\20240626134601_SeedData.cs",
+              "ToolTip": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Migrations\\20240626134601_SeedData.cs",
+              "RelativeToolTip": "AppQuizz\\Migrations\\20240626134601_SeedData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:46:01.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Quiz.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Models\\Quiz.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Models\\Quiz.cs",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "QuizQuestion.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Models\\QuizQuestion.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Models\\QuizQuestion.cs",
@@ -144,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ExperienceLevel.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Models\\ExperienceLevel.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Models\\ExperienceLevel.cs",
@@ -157,20 +174,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "AppQuizz\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T09:48:10.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AnswerOption.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Models\\AnswerOption.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Models\\AnswerOption.cs",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Models\\Question.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Models\\Question.cs",
@@ -196,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Technology.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Models\\Technology.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Models\\Technology.cs",
@@ -209,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Candidate.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Models\\Candidate.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Models\\Candidate.cs",
@@ -222,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Agent.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Models\\Agent.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Models\\Agent.cs",
@@ -235,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "QuizQuestionsController.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Controllers\\QuizQuestionsController.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Controllers\\QuizQuestionsController.cs",
@@ -248,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\appsettings.json",
               "RelativeDocumentMoniker": "AppQuizz\\appsettings.json",
@@ -261,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "QuestionsController.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Controllers\\QuestionsController.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Controllers\\QuestionsController.cs",
@@ -274,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ExperienceLevelsController.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Controllers\\ExperienceLevelsController.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Controllers\\ExperienceLevelsController.cs",
@@ -287,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CandidatesController.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Controllers\\CandidatesController.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Controllers\\CandidatesController.cs",
@@ -300,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AnswerOptionsController.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Controllers\\AnswerOptionsController.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Controllers\\AnswerOptionsController.cs",
@@ -313,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AgentsController.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Controllers\\AgentsController.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Controllers\\AgentsController.cs",
@@ -326,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "TechnologiesController.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Controllers\\TechnologiesController.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Controllers\\TechnologiesController.cs",
@@ -339,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "QuizzesController.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Controllers\\QuizzesController.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Controllers\\QuizzesController.cs",
@@ -352,13 +369,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Program.cs",
               "RelativeDocumentMoniker": "AppQuizz\\Program.cs",
               "ToolTip": "C:\\Users\\IB\\lamyaa\\fil-rouge\\back\\AppQuizz\\AppQuizz\\Program.cs",
               "RelativeToolTip": "AppQuizz\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T09:48:10.589Z",
               "EditorCaption": ""
