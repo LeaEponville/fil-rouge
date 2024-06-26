@@ -1,17 +1,14 @@
-using AppQuizz.Data;
 using Microsoft.EntityFrameworkCore;
+using AppQuizz.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Add the DbContext with PostgreSQL configuration
+// Configure Entity Framework and SQL Server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// Add other services as needed, for example:
-// builder.Services.AddScoped<IMyService, MyService>();
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
