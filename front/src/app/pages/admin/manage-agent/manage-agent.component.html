@@ -1,40 +1,23 @@
 <body>
-     <div id="page1" class="page" style="z-index: 3;">
-       <!-- <nav>
-            <div id="title_discover">
-                <h1>TechTalentify</h1>
-                <div class="icones_noms">
-                    <img src="./assets/images/ico_accueil.png" class="icones">
-                    <p>Accueil</p>
-                </div>
-                <div class="icones_noms">
-                    <img src="./assets/images/ico_agents.png" class="icones">
-                    <p>Gérer les agents</p>
-                </div>
-                <div class="icones_noms">
-                    <img src="./assets/images/ico_questions.png" class="icones">
-                    <p>Gérer le référentiel des questions et réponses</p>
-                </div>
-                <div class="icones_noms">
-                    <img src="./assets/images/ico_list.png" class="icones">
-                    <p>Générer un nouveau quiz</p>
-                </div>
-            </div>
-            <img src="./assets/images/techtalentify_logo_black.png" id="tech_logo">
-        </nav> -->
-
-        <main>
-
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="/generate-quiz">Générer un nouveau quiz</a></li>
+                    <li><a href="/config-exp">Configurer les niveaux d'expérience</a></li>
+                    <li><a href="/edit-techno">Création et édition de technologies</a></li>
+                    <li><a href="/manage-agent">Gestion des agents</a></li>
+                    <li><a href="questions-answers-referential">Gérer le référentiel de questions et réponses</a></li>
+                    <li><a href="see-quiz">Voir les quiz</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
             <header>
                 <h2>Gestion des agents</h2>
-                <div id="login">
-                    <p>Admin</p>
-                    <button id="déconnexion" onclick=>Déconnexion</button>
-                </div>
             </header>
-
             <section id="deux_colonnes">
-
                 <div id="colonne_gauche">
                     <div id="ico_titre_section">
                         <img src="./assets/images/ico_agents.png"> Liste des agents
@@ -84,7 +67,6 @@
                     </table>
                     <button id="suivant" onclick=>Suivant</button>
                 </div>
-
                 <div id="colonne_droite">
                     <img id="computer" src="./assets/images/computer.png">
                     <div id="actions_agents">
@@ -93,12 +75,9 @@
                         <button class="agent_button" onclick=>Supprimer un agent</button>
                     </div>
                 </div>
-
             </section>
-
         </main>
     </div>
-
 </body>
 
 
