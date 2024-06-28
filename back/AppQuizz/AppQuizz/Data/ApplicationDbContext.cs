@@ -8,7 +8,7 @@ namespace AppQuizz.Data
     public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
+            : base(options) // Appel du constructeur de la classe de base avec les options
         {
         }
 
