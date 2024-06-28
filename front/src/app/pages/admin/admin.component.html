@@ -1,17 +1,5 @@
 <body>
     <div class="container">
-        <aside class="sidebar">
-            <nav>
-                <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="/generate-quiz">Générer un nouveau quiz</a></li>
-                    <li><a href="/config-exp">Configurer les niveaux d'expérience</a></li>
-                    <li><a href="/edit-techno">Création et édition de technologies</a></li>
-                    <li><a href="/manage-agent">Gestion des agents</a></li>
-                    <li><a href="questions-answers-referential">Gérer le référentiel de questions et réponses</a></li>
-                    <li><a href="see-quiz">Voir les quiz</a></li>
-                </ul>
-            </nav>
-        </aside>
+        <sidebar [links]="links"></sidebar>
     </div>
 </body>

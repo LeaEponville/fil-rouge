@@ -12,7 +12,7 @@ import { QuestionsAnswersReferentialComponent } from './pages/admin/questions-an
 import { SeeQuizComponent } from './pages/admin/see-quiz/see-quiz.component';
 import { ResultsComponent } from './pages/agent/results/results.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
-
+import { SidebarComponent } from './components/sidebar/sidebar';
 
 export const routes: Routes = [
     { path: 'home', component: HomeComponent},
@@ -41,6 +41,7 @@ export const routes: Routes = [
     { path: "results/:id", component: ResultsComponent },
     { path: "", redirectTo: "home", pathMatch: "full" },
     { path: "**", component: NotFoundComponent },
+    { path: "sidebar", component: SidebarComponent },
 ];
 
 
