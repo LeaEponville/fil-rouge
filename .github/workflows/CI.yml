@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js 18
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18.x
+        cache: 'npm'
+    - run: npm ci
+    - run: npm run build --if-present
+
+  pull-request-master:
+    runs-on: ubuntu-latest
+    steps:
+      - name: create pull request
+        uses: vsoch/pull-request-action@master
+        env:
+          GITHUB_TOKEN: ${{secrets.PULL_REQUEST_TOKEN}}
+          BRANCH-PREFIX: "main/"
+          PULL_REQUEST_BRANCH: "master"
