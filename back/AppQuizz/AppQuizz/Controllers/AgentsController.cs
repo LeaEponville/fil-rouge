@@ -16,11 +16,13 @@ namespace AppQuizz.Controllers
             _context = context;
         }
 
+        // GET: Agents
         public async Task<IActionResult> Index()
         {
             return View(await _context.Agents.ToListAsync());
         }
 
+        // GET: Agents/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -38,11 +40,13 @@ namespace AppQuizz.Controllers
             return View(agent);
         }
 
+        // GET: Agents/Create
         public IActionResult Create()
         {
             return View();
         }
 
+        // POST: Agents/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("AgentId,Name,Email")] Agent agent)
@@ -56,6 +60,7 @@ namespace AppQuizz.Controllers
             return View(agent);
         }
 
+        // GET: Agents/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -71,6 +76,7 @@ namespace AppQuizz.Controllers
             return View(agent);
         }
 
+        // POST: Agents/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("AgentId,Name,Email")] Agent agent)
@@ -103,6 +109,7 @@ namespace AppQuizz.Controllers
             return View(agent);
         }
 
+        // GET: Agents/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -120,6 +127,7 @@ namespace AppQuizz.Controllers
             return View(agent);
         }
 
+        // POST: Agents/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
