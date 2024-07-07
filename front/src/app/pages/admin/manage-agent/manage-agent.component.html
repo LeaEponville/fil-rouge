@@ -1,23 +1,111 @@
 <body>
-    <div class="container">
-        <aside class="sidebar">
-            <nav>
-                <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="/generate-quiz">Générer un nouveau quiz</a></li>
-                    <li><a href="/config-exp">Configurer les niveaux d'expérience</a></li>
-                    <li><a href="/edit-techno">Création et édition de technologies</a></li>
-                    <li><a href="/manage-agent">Gestion des agents</a></li>
-                    <li><a href="questions-answers-referential">Gérer le référentiel de questions et réponses</a></li>
-                    <li><a href="see-quiz">Voir les quiz</a></li>
+    <div class="container flex flex-row gap-8">
+        <sidebar [links]="links"></sidebar>
+        <div class="border-2 border-indigo-600 gap-8 columns-1 w-full">
+            <h1 class="text-3xl font-bold underline bg-red-500">
+                Liste des agents
+            </h1>
+
+            <button id="multiLevelDropdownButton" data-dropdown-toggle="multi-dropdown"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                type="button">
+                Dropdown button
+                <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="m1 1 4 4 4-4" />
+                </svg>
+            </button>
+            <!-- Dropdown menu -->
+            <div id="multi-dropdown"
+                class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="multiLevelDropdownButton">
+                    <li>
+                        <a href="#"
+                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                    </li>
+                    <li>
+                        <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown"
+                            data-dropdown-placement="right-start" type="button"
+                            class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dropdown<svg
+                                class="w-2.5 h-2.5 ms-3 rtl:rotate-180" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 9 4-4-4-4" />
+                            </svg></button>
+                        <div id="doubleDropdown"
+                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                aria-labelledby="doubleDropdownButton">
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Overview</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">My
+                                        downloads</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Billing</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Rewards</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign
+                            out</a>
+                    </li>
                 </ul>
-            </nav>
-        </aside>
-        <main class="main-content">
+            </div>
+
+        </div>
+        <div class="border-2 border-indigo-600 gap-8 columns-1 w-full flex flex-col items-center">
+            <img src="/assets/images/recruiters.jpg" alt="Image" />
+
+            <button
+                class="m-4 p-0.5 rounded-full from-fuchsia-400 to-red-300 bg-gradient-to-r flex items-center gap-2 w-fit">
+                <span
+                    class="text-black px-4 py-2 font-semibold rounded-full bg-white hover:bg-transparent hover:text-white transition flex items-center gap-2">
+                    Ajouter un agent
+                </span>
+            </button>
+
+            <button
+                class="m-4 p-0.5 rounded-full from-fuchsia-400 to-red-300 bg-gradient-to-r flex items-center gap-2 w-fit">
+                <span
+                    class="text-black px-4 py-2 font-semibold rounded-full bg-white hover:bg-transparent hover:text-white transition flex items-center gap-2">
+                    Modifier un agent
+                </span>
+            </button>
+
+            <button
+                class="m-4 p-0.5 rounded-full from-fuchsia-400 to-red-300 bg-gradient-to-r flex items-center gap-2 w-fit">
+                <span
+                    class="text-black px-4 py-2 font-semibold rounded-full bg-white hover:bg-transparent hover:text-white transition flex items-center gap-2">
+                    Supprimer un agent
+                </span>
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!--<main class="main-content">
             <header>
                 <h2>Gestion des agents</h2>
             </header>
-            <section id="deux_colonnes">
                 <div id="colonne_gauche">
                     <div id="ico_titre_section">
                         <img src="./assets/images/ico_agents.png"> Liste des agents
@@ -75,9 +163,7 @@
                         <button class="agent_button" onclick=>Supprimer un agent</button>
                     </div>
                 </div>
-            </section>
-        </main>
-    </div>
+        </main>-->
+
+
 </body>
-
-

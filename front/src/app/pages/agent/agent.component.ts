@@ -11,7 +11,7 @@ import { SidebarComponent } from '../../components/sidebar/sidebar';
 export class AgentComponent {
   links = [
     { label: "Accueil", path: "/" },
-    { label: "Générer un nouveau quiz", path: "/generate-quiz" },
+    { label: "Générer un nouveau quiz", path: "/generate-quiz-agent" },
     { label: "Lister les quiz", path: "/list-quiz" },
     { label: "Résultats", path: "/results" }
   ];

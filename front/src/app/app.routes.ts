@@ -6,7 +6,8 @@ import { LoginComponent } from './pages/login/login.component';
 import { ConfigureExpComponent } from './pages/admin/configure-exp/configure-exp.component';
 import { EditTechnoComponent } from './pages/admin/edit-techno/edit-techno.component';
 import { ListQuizComponent } from './pages/agent/list-quiz/list-quiz.component';
-import { GenerateQuizComponent } from './pages/generate-quiz/generate-quiz.component';
+import { GenerateQuizAdminComponent } from './pages/admin/generate-quiz-admin/generate-quiz-admin.component';
+import { GenerateQuizAgentComponent } from './pages/agent/generate-quiz-agent/generate-quiz-agent.component';
 import { ManageAgentComponent } from './pages/admin/manage-agent/manage-agent.component';
 import { QuestionsAnswersReferentialComponent } from './pages/admin/questions-answers-referential/questions-answers-referential.component';
 import { SeeQuizComponent } from './pages/admin/see-quiz/see-quiz.component';
@@ -31,8 +32,10 @@ export const routes: Routes = [
     { path: "list-quiz/:id", component: ListQuizComponent },
     { path: 'see-quiz', component: SeeQuizComponent },
     { path: "see-quiz/:id", component: SeeQuizComponent },
-    { path: 'generate-quiz', component: GenerateQuizComponent },
-    { path: "generate-quiz/:id", component: GenerateQuizComponent },
+    { path: 'generate-quiz-admin', component: GenerateQuizAdminComponent },
+    { path: "generate-quiz-admin/:id", component: GenerateQuizAdminComponent },
+    { path: 'generate-quiz-agent', component: GenerateQuizAgentComponent },
+    { path: "generate-quiz-agent/:id", component: GenerateQuizAgentComponent },
     { path: 'questions-answers-referential', component: QuestionsAnswersReferentialComponent },
     { path: "questions-answers-referential/:id", component: QuestionsAnswersReferentialComponent },
     { path: 'manage-agent', component: ManageAgentComponent },

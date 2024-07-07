@@ -11,7 +11,7 @@ import { SidebarComponent } from '../../components/sidebar/sidebar';
 export class AdminComponent {
   links = [
     { label: "Accueil", path: "/" },
-    { label: "Générer un nouveau quiz", path: "/generate-quiz" },
+    { label: "Générer un nouveau quiz", path: "/generate-quiz-admin" },
     { label: "Configurer les niveaux d'expérience", path: "/config-exp" },
     { label: "Création et édition de technologies", path: "/edit-techno" },
     { label: "Gestion des agents", path: "/manage-agent" },

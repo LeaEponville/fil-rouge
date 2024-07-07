@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 import { SidebarComponent } from '../../../components/sidebar/sidebar';
 
 @Component({
-  selector: 'app-configure-exp',
+  selector: 'app-generate-quiz-admin',
   standalone: true,
   imports: [SidebarComponent],
-  templateUrl: './configure-exp.component.html',
-  styleUrl: './configure-exp.component.css'
+  templateUrl: './generate-quiz-admin.component.html',
+  styleUrl: './generate-quiz-admin.component.css'
 })
-export class ConfigureExpComponent {
+export class GenerateQuizAdminComponent {
   links = [
     { label: "Accueil", path: "/" },
     { label: "Générer un nouveau quiz", path: "/generate-quiz-admin" },
