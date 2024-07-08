@@ -1,11 +1,18 @@
-/** {
+html {
+  height: 100%;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
+  margin: 0;
+  height: 100%;
   font-family: Arial, sans-serif;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 .container {
@@ -29,9 +36,7 @@ body {
   font-size: 18px;
 }
 
-mat-grid-tile {
-  background: lightblue;
-}*/
+ 
 
 
 
