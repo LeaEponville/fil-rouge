@@ -24,16 +24,12 @@ html {
     flex-grow: 1;
     padding: 20px;
   }
-  
-  .main-content header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+
+  .sub-content-2 {
+    padding: 20px;
+  }
+
+  .sub-content-3 {
+    padding: 20px;
   }
   
-  .main-content header span {
-    font-size: 18px;
-  }
-  
-   
