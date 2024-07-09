@@ -17,103 +17,103 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppQuizz
 build_property.RootNamespace = AppQuizz
-build_property.ProjectDir = C:\Users\IB\lamyaa\fil-rouge\back\AppQuizz\AppQuizz\
+build_property.ProjectDir = C:\Users\IB\projet_fil_rouge\fil-rouge\back\AppQuizz\AppQuizz\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\IB\lamyaa\fil-rouge\back\AppQuizz\AppQuizz
+build_property.MSBuildProjectDirectory = C:\Users\IB\projet_fil_rouge\fil-rouge\back\AppQuizz\AppQuizz
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Pages/Account/Login.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Pages/Account/Logout.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Pages/Account/Register.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Pages/Error.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Pages/Index.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Pages/Privacy.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Pages/Shared/_LoginPartial.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Pages/_ViewImports.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Pages/_ViewStart.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Views/Agents/Create.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Views/Agents/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Views/Agents/Delete.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Views/Agents/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Views/Agents/Details.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Views/Agents/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Views/Agents/Edit.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Views/Agents/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Views/Agents/Index.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Views/Agents/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IB/lamyaa/fil-rouge/back/AppQuizz/AppQuizz/Pages/Shared/_Layout.cshtml]
+[C:/Users/IB/projet_fil_rouge/fil-rouge/back/AppQuizz/AppQuizz/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-yenzjbe1cm
