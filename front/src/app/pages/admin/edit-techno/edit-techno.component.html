@@ -1,9 +1,76 @@
 <body>
-    <div class="container">
+    <div class="container w-full">
         <sidebar [links]="links"></sidebar>
-        <div class="main-content">
-            <h1>Edit Techno</h1>
+
+        <div class="main-content w-1/2 flex flex-col">
+            <h2>Création et édition de technologies</h2>
+
+            <div class="sub-content-1 flex h-20 w-4/5 justify-between">
+                <div class="select-techno flex flex-col w-2/5">
+                    <p>Sélection d'une technologie</p>
+                    <div class="inline-block relative w-full">
+                        <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline h-12">
+                          <option>Angular</option>
+                          <option>C#</option>
+                          <option>JavaScript</option>
+                        </select>
+                        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">  
+                        </div>
+                    </div>
+                </div>
+                <div class="show-id w-2/5">
+                    <p>ID à afficher</p>
+                    <form action="/search" class="max-w-[480px] w-full px-4">
+                        <div class="relative">
+                            <input type="text" name="q" class="w-full border h-12 shadow p-4 rounded-full dark:text-gray-800 dark:border-gray-700 dark:bg-gray-200" placeholder="search">
+                            <button type="submit">
+                                <svg class="text-teal-400 h-5 w-5 absolute top-3.5 right-3 fill-current dark:text-teal-300"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                                    x="0px" y="0px" viewBox="0 0 56.966 56.966"
+                                    style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve">
+                                    <path
+                                        d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <button class="bg-gradient-to-r from-blue-300 to-fuchsia-500 hover:bg-white text-white font-bold py-2 px-4 hover:border-blue-500 rounded w-60 h-14">
+                Créer une technologie
+            </button>
+
+            <div class="sub-content-2 flex flex-row w-10/12">
+                <h6 class="w-1/5">ID</h6>
+                <h6 class="w-2/5">Questions</h6>
+                <h6 class="w-64">Réponses</h6>
+            </div>
+
+            <button class="bg-white hover:bg-blue-400 text-gray-300 py-2 px-4 border-2 border-x-gray-300 hover:border-blue-500 rounded w-60 h-14">
+                + Ajouter une question
+            </button>
+
+            <div class="sub-content-3 flex flex-row justify-start border-2 rounded border-gray-200 h-60 w-10/12">
+                <p class="flex flex-row h-20 w-1/5">1</p>
+                <p class="flex flex-row  h-20 w-2/5">Intitulé question</p>
+                <div class="answer-component ">
+                    <p>Sélectionner le type de réponse</p>
+                    <div class="inline-block relative w-60">
+                        <select class="block appearance-none w-60 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline h-12">
+                          <option>Réponse libre</option>
+                          <option>Choix multiples</option>
+                        </select>
+                        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">  
+                        </div>
+                    </div>
+                    <input class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-11" id="grid-last-name" type="text" placeholder="Entrez votre réponse...">
+                    <input class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-11" id="grid-last-name" type="text" placeholder="Ajouter une réponse...">  
+                </div>
+            </div>
+
         </div>
+
     </div>
 </body>
-
