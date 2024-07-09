@@ -8,7 +8,7 @@ import { SidebarComponent } from '../../../components/sidebar/sidebar';
   templateUrl: './configure-exp.component.html',
   styleUrl: './configure-exp.component.css'
 })
-export class ConfigureExpComponent {
+export default class ConfigureExpComponent {
   links = [
     { label: "Accueil", path: "/" },
     { label: "Générer un nouveau quiz", path: "/generate-quiz-admin" },

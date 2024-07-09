@@ -8,7 +8,7 @@ import { SidebarComponent } from '../../../components/sidebar/sidebar';
   templateUrl: './manage-agent.component.html',
   styleUrl: './manage-agent.component.css'
 })
-export class ManageAgentComponent {
+export default class ManageAgentComponent {
   links = [
     { label: "Accueil", path: "/" },
     { label: "Générer un nouveau quiz", path: "/generate-quiz-admin" },

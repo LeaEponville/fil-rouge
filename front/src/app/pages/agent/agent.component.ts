@@ -8,7 +8,7 @@ import { SidebarComponent } from '../../components/sidebar/sidebar';
   templateUrl: './agent.component.html',
   styleUrl: './agent.component.css'
 })
-export class AgentComponent {
+export default class AgentComponent {
   links = [
     { label: "Accueil", path: "/" },
     { label: "Générer un nouveau quiz", path: "/generate-quiz-agent" },

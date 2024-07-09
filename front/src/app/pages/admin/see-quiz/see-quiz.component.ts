@@ -8,7 +8,7 @@ import { SidebarComponent } from '../../../components/sidebar/sidebar';
   templateUrl: './see-quiz.component.html',
   styleUrl: './see-quiz.component.css'
 })
-export class SeeQuizComponent {
+export default class SeeQuizComponent {
   links = [
     { label: "Accueil", path: "/" },
     { label: "Générer un nouveau quiz", path: "/generate-quiz-admin" },

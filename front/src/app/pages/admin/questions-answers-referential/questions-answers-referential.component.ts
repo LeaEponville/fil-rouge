@@ -8,7 +8,7 @@ import { SidebarComponent } from '../../../components/sidebar/sidebar';
   templateUrl: './questions-answers-referential.component.html',
   styleUrl: './questions-answers-referential.component.css'
 })
-export class QuestionsAnswersReferentialComponent {
+export default class QuestionsAnswersReferentialComponent {
   links = [
     { label: "Accueil", path: "/" },
     { label: "Générer un nouveau quiz", path: "/generate-quiz-admin" },
