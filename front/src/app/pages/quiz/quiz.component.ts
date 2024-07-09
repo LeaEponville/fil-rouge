@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './quiz.component.html',
   styleUrl: './quiz.component.css'
 })
-export class QuizComponent implements OnInit {
+export default class QuizComponent implements OnInit {
   quizData = [
     {
       question: "1) Qu'est-ce que le .NET Framework ?",

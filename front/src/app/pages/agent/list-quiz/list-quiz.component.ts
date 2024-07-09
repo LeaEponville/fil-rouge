@@ -8,7 +8,7 @@ import { SidebarComponent } from '../../../components/sidebar/sidebar';
   templateUrl: './list-quiz.component.html',
   styleUrl: './list-quiz.component.css'
 })
-export class ListQuizComponent {
+export default class ListQuizComponent {
   links = [
     { label: "Accueil", path: "/" },
     { label: "Générer un nouveau quiz", path: "/generate-quiz-agent" },
