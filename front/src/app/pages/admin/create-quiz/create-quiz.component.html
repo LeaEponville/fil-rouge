@@ -1,8 +1,11 @@
 <body>
-    <div class="container w-full">
+    <div class="grid grid-cols-12 gap-x-4">
+        <div class="col-span-2">
         <sidebar [links]="links"></sidebar>
+        </div>
 
-        <div class="main-content w-1/2 flex flex-col">
+        
+        <div class="col-span-10 p-2">
             <h2>Créer un quiz</h2>
 
             <div class="sub-content-1 flex h-20 w-4/5 justify-between">

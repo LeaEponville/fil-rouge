@@ -10,14 +10,60 @@ import { Component, OnInit } from '@angular/core';
 export class QuizComponent implements OnInit {
   quizData = [
     {
-      question: "What is the capital of France?",
-      options: ["Paris", "Madrid", "Rome", "Berlin"],
-      answer: "Paris"
+      question: "1) Qu'est-ce que le .NET Framework ?",
+      options: [
+      "a) Un environnement de développement pour des applications mobiles.",
+      "b) Un environnement de développement pour des applications web.",
+      "c) Un environnement de développement pour des applications console.",
+      "d) Un environnement de développement pour des applications Windows et web."
+      ],
+      answer: "d) Un environnement de développement pour des applications Windows et web."
     },
     {
-      question: "What is the largest planet in our solar system?",
-      options: ["Jupiter", "Saturn", "Mars", "Earth"],
-      answer: "Jupiter"
+      question: "2) Quel langage de programmation est principalement utilisé avec .NET ?",
+      options: ["a) Java", "b) Python", "c) C#", "d) Ruby"],
+      answer: "c) C#"
+    },
+    {
+      question: "3) Quel IDE est couramment utilisé pour développer des applications .NET ?",
+      options: ["a) Visual Studio", "b) Visual Studio Code", "c) Eclipse", "d) Mono"],
+      answer: "a) Visual Studio"
+    },
+    {
+      question: "4) Qu'est-ce que CLR signifie dans le contexte de .NET ?",
+      options: ["a) Common Language Runtime", "b) Common Language Resource", "c) Central Language Runtime", "d) Central Language Resource"],
+      answer: "a) Common Language Runtime"
+    },
+    {
+      question: "5) Quelle est la principale base de données utilisée avec .NET ?",
+      options: ["a) PostgreSQL", "b) MySQL", "c) Oracle", "d) SQL Server"],
+      answer: "d) SQL Server"
+    },
+    {
+      question: "6) Qu'est-ce que ASP.NET ?",
+      options: ["a) Un framework de développement mobile", "b) Un framework de développement web", "c) Un framework de développement console", "d) Un framework de développement web et mobile"],
+      answer: "b) Un framework de développement web"
+    },
+    {
+      question: "7) Quel fichier contient les informations de configuration d'une application .NET ?",
+      options: ["a) web.config", "b) app.config", "c) machine.config", "d) settings.config"],
+      answer: "a) web.config"
+    },
+    {
+      question: "8) Quel est le principal gestionnaire de packages pour .NET ?",
+      options: ["a) NuGet", "b) NPM", "c) Maven", "d) Gradle"],
+      answer: "a) NuGet"
+    },
+    {
+      question: "9) Qu'est-ce que LINQ permet de faire ?",
+      options: ["a) Développer des applications web", "b) Accéder et manipuler des données de manière fluide", "c) Gérer les configurations d'applications", "d) Créer des interfaces utilisateur"],
+      answer: "b) Accéder et manipuler des données de manière fluide"
+    },
+    {
+      question: "10) Quel framework .NET est utilisé pour le développement multiplateforme ?",
+      options: ["a) .NET Framework", "b) .NET Standard", "c) .NET Core", "d) .NET MVC"],
+      answer: "c) .NET Core"
+      
     },
     // Add more questions here...
   ];
