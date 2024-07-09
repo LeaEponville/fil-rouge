@@ -105,6 +105,8 @@ export class QuizComponent implements OnInit {
     button.addEventListener("click", this.next.bind(this));
   }
 
+
+
   selectAnswer(e: Event) {
     const selectedButton = e.target as HTMLElement;
     const answer = this.quizData[this.currentQuestion].answer;
@@ -156,6 +158,8 @@ export class QuizComponent implements OnInit {
   }
 
   showResult() {
+    this.optionsElement.innerHTML ="";
+    this.submitButton.innerHTML ="";
     this.questionElement.innerHTML = `
       <h1>Quiz Completed!</h1>
       <p>Your score: ${this.score}/${this.quizData.length}</p>
