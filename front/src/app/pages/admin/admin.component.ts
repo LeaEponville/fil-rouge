@@ -17,7 +17,7 @@ export default class AdminComponent {
     { label: "Créer un quiz", path: "/create-quiz" },
     { label: "Gestion des agents", path: "/manage-agent" },
     /*{ label: "Gérer le référentiel de questions et réponses", path: "questions-answers-referential" },*/
-    { label: "Voir les quiz", path: "see-quiz" }
+    { label: "Voir les quiz", path: "/see-quiz" }
   ];
 }
 
