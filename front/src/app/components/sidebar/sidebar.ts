@@ -7,6 +7,7 @@ import { Component, Input } from "@angular/core";
     imports: [NgFor],
     template: `
     <aside class="sidebar">
+        <a>Admin/Agent</a>
         <nav>
             <ul>
                 <li *ngFor="let link of links"><a [href]="link.path">{{ link.label }}</a></li>

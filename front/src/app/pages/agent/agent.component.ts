@@ -15,4 +15,5 @@ export default class AgentComponent {
     { label: "Lister les quiz", path: "/list-quiz" },
     { label: "Résultats", path: "/results" }
   ];
+  
 }
