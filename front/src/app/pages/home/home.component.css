@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6, p, a {
+/*h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Manrope', sans-serif;
 }
 
@@ -82,4 +82,4 @@ h1, h2, h3, h4, h5, h6, p, a {
 .swiper-rtl .swiper-button-next {
     left: var(--swiper-navigation-sides-offset, 25px);
     right: auto;
-}
+}*/

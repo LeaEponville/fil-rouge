@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { SidebarComponent } from '../../../components/sidebar/sidebar';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-generate-quiz-agent',
   standalone: true,
-  imports: [SidebarComponent],
+  imports: [SidebarComponent, RouterLink],
   templateUrl: './generate-quiz-agent.component.html',
   styleUrl: './generate-quiz-agent.component.css'
 })
