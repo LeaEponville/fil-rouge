@@ -1,11 +1,12 @@
 
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+<body class="bg-gray-100 flex items-center justify-center min-h-screen shadow-xl">
     <div id="quiz" class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
-        <h2 class="text-2xl font-bold mb-4 text-center">Interactive Quiz | By CodePicker</h2>
         <div id="question" class="text-lg font-medium mb-4"></div>
         <div id="options" class="flex flex-col space-y-2"> </div>
-        <div id="valider" class="mt-6 text-center py-2 px-4 bg-blue-500 rounded cursor-pointer hover:bg-green-600">
-            Valider
+        <div class="flex justify-center mt-6">
+            <button id="valider" (click)="next()" class="rounded-lg border-5 border-2 py-2 px-4 bg-white-500 rounded cursor-pointer hover:shadow-xl hover:font-bold">
+                Valider
+            </button>
         </div>
     </div>
     <script src="index.js"></script>

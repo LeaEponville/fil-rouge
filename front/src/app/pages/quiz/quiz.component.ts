@@ -65,16 +65,18 @@ export default class QuizComponent implements OnInit {
       answer: "c) .NET Core"
       
     },
-    // Add more questions here...
+    // Add more questions here.
   ];
 
   currentQuestion = 0;
   score = 0;
   flag_Breponse = 0;
   flag_Freponse = 0;
+  backgroundColor = "rgba(100, 0, 255, 0.08)";
   questionElement!: HTMLElement;
   optionsElement!: HTMLElement;
   submitButton!: HTMLElement;
+
 
   ngOnInit() {
     this.questionElement = document.getElementById("question")!;
@@ -91,18 +93,21 @@ export default class QuizComponent implements OnInit {
     question.options.forEach(option => {
       const button = document.createElement("button");
       button.innerText = option;
-      button.style.backgroundColor = "#FFFFFF";
-      button.style.borderRadius = "5px";
+      button.style.borderWidth = "2px";
+      button.style.borderRadius = "10px";
+      
       this.optionsElement.appendChild(button);
       button.addEventListener("click", this.selectAnswer.bind(this));
+      button.addEventListener('mouseover', function(this) {
+        button.style.fontWeight = "bold";
+        button.style.boxShadow = "grey 3px 3px 3px";
     });
-    this.submitButton.innerHTML = "";
-    const button = document.createElement("button");
-    button.innerText = "Valider";
-    button.style.backgroundColor = "#FFFFFF";
-    button.style.borderRadius = "5px";
-    this.submitButton.appendChild(button);
-    button.addEventListener("click", this.next.bind(this));
+
+    button.addEventListener('mouseout', function() {
+        button.style.fontWeight = 'normal';
+        button.style.boxShadow = "white 5px 5px";
+    });
+    });
   }
 
 
@@ -112,11 +117,12 @@ export default class QuizComponent implements OnInit {
     const answer = this.quizData[this.currentQuestion].answer;
     console.log(selectedButton.style.backgroundColor);
     
-    selectedButton.style.backgroundColor === "rgb(255, 255, 255)" ? selectedButton.style.backgroundColor = "#00ff00" : selectedButton.style.backgroundColor = "#ffffff";
+    
+    selectedButton.style.backgroundColor == this.backgroundColor ? selectedButton.style.backgroundColor = "rgb(255, 255, 255)" : selectedButton.style.backgroundColor = this.backgroundColor;
       
   }
       
-  next(e: Event){
+  next(){
   
       // Sélectionner tous les éléments <button> sur la page
       const buttons = document.querySelectorAll("button");
@@ -125,7 +131,7 @@ export default class QuizComponent implements OnInit {
       buttons.forEach((button, index) => {
 
         if(button.innerText === this.quizData[this.currentQuestion].answer){ // Vérifie si la bonne réponse est cliqué
-          if(button.style.backgroundColor === "rgb(0, 255, 0)"){
+          if(button.style.backgroundColor === this.backgroundColor){
             this.flag_Breponse = 1;
           }
           else{
@@ -133,7 +139,7 @@ export default class QuizComponent implements OnInit {
           }
         }
         else{
-          if(button.style.backgroundColor === "rgb(0, 255, 0)"){ // Vérifie si une fausse réponse est cliqué
+          if(button.style.backgroundColor === this.backgroundColor){ // Vérifie si une fausse réponse est cliqué
             this.flag_Freponse = 1;
           }
         }
