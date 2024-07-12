@@ -3,6 +3,32 @@
         <sidebar [links]="links"></sidebar>
         <div class="main-content">
             <h1>Agents</h1>
+            <div>
+            <div class="profile-page">
+                <h2 class="text-2xl font-bold mb-4">Profil de l'agent</h2>
+                <form id="profileForm" class="space-y-4">
+                    <div class="form-group">
+                        <label for="firstName" class="block text-sm font-medium text-gray-700">Prénom :</label>
+                        <input type="text" id="firstName" name="firstName" class="mt-1 block w-1/7 p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName" class="block text-sm font-medium text-gray-700">Nom :</label>
+                        <input type="text" id="lastName" name="lastName" class="mt-1 block w-1/7 p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="block text-sm font-medium text-gray-700">Adresse mail :</label>
+                        <input type="email" id="email" name="email" class="mt-1 block w-1/7 p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="block text-sm font-medium text-gray-700">Mot de passe :</label>
+                        <input type="password" id="password" name="password" class="mt-1 block w-1/7 p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                    </div>
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700">Mettre à jour</button>
+                </form>
+            </div>
+            </div>
         </div>
+       
+        
     </div>
 </body>
